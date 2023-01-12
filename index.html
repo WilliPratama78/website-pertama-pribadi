@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Pertama</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icons/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">WILLY X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hobi">HOBBY</a></li>
+          <li><a href="mailto:willypratama076@gmail.com">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Willi Pratama</p>
+        <p class="description">Experienced Coder from Bandung</p>
+        <img src="assets/img/ABY02560-1.JPG" alt="Willi Pratama foto 1" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="about">
+        <p class="title">Saya adalah programmer junior</p>
+        <p class="description">Konsisten aja dulu nanti juga jadi hobby</p>
+        <button class="mt-10 btn-cta" onclick="redirWhatsapp()">Mari Kerja Sama</button>
+      </div>
+      <div class="container">
+        <div class="card" id="hobi">
+          <div class="card-item">
+            <img src="assets/icons/24-hours.png" alt="icon 1" class="icon" />
+            <p class="card-title">Saya suka nonton anime</p>
+            <p class="card-description">Nonton anime sebagai mengisi waktu luang dan penat dari lelahnya kesibukan harian</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/hot-deal.png" alt="icon 1" class="icon" />
+            <p class="card-title">Saya suka nonton anime</p>
+            <p class="card-description">Nonton anime sebagai mengisi waktu luang dan penat dari lelahnya kesibukan harian</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icons/rating.png" alt="icon 1" class="icon" />
+            <p class="card-title">Saya suka nonton anime</p>
+            <p class="card-description">Nonton anime sebagai mengisi waktu luang dan penat dari lelahnya kesibukan harian</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Willi Pratama Website 2023</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://instagram.com/willyp58";
+      }
+
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+6282320716157";
+      }
+    </script>
+  </body>
+</html>
